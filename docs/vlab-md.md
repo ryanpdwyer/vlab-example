@@ -9,6 +9,9 @@ You can create your own virtual lab by forking this repository on Github and fol
 <div id="vlab">
 </div>
 
+
+
+<script src="https://chemcollective.oli.cmu.edu/chem/jsvlab/bundled/lib.js">
 <script>
         var data = {
             assignment: {
