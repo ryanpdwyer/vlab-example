@@ -6,8 +6,8 @@
 
 You can create your own virtual lab by forking this repository on Github and following the steps below.
 
-<iframe id="labframe" src="https://chemcollective.oli.cmu.edu/chem/jsvlab/vlab.html" style="width:100%; height: 650px;">
-</iframe>
+<div id="vlab">
+</div>
 
 <script>
         var data = {
@@ -256,36 +256,8 @@ You can create your own virtual lab by forking this repository on Github and fol
 }
         };
 
-
-      	var message = {
-    labObject: data,
-		userName: "anon",
-		session: "session_web",
-		loggingEnabled: false,
-		destination: "console",
-		language: "en",
-    allowLoadAssignment: true,
-    showFirstTimeTips: true,
-	  };
-
-    var labInfo = null;
-
-        function getWorkbenchItems() {
-            return labInfo.getWorkbenchItems();
-        }
-        function isFinishedLoading() {
-            return labInfo.isFinishedLoading();
-        }
-        function getSelectedItem() {
-            return labInfo.getSelectedItem();
-        }
-        function loadAssignmentJSON(data) {
-            labInfo.loadAssignmentJSON(data);
-        }
-
-    var labframe = document.getElementById("labframe").contentWindow;
-	labframe.onload = function () {
-      // Change the targetOrigin to your domain  
-	labframe.postMessage(message, "https://ryanpdwyer.github.io/");
-		}
+  const language = 'en';
+  const allowLoadAssignment = true;
+  const appModel = new VLab.AppModel();
+  const appView = new VLab.AppView({ model: appModel, el: document.getElementById("vlab"), vlab: data});
     </script>
