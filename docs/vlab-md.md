@@ -1,6 +1,8 @@
+---
+layout: default
+---
+
 # Virtual Lab Example
-
-
 
 ## Make a new virtual lab
 
@@ -11,7 +13,10 @@ You can create your own virtual lab by forking this repository on Github and fol
 
 
 
+<script src="https://chemcollective.oli.cmu.edu/chem/jsvlab/bundled/vendors~bundle~lib.js"></script>
+<script src="https://chemcollective.oli.cmu.edu/chem/jsvlab/bundled/bundle~lib.js"></script>
 <script src="https://chemcollective.oli.cmu.edu/chem/jsvlab/bundled/lib.js"></script>
+
 <script>
         var data = {
             assignment: {

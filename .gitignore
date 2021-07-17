@@ -1,0 +1,5 @@
+.vscode/
+.bundle
+.sass-cache/
+_site/
+vendor/
