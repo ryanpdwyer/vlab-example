@@ -12,10 +12,10 @@ You can create your own virtual lab by forking this repository on Github and fol
 </div>
 
 
+<script src="https://nifty-newton-c83258.netlify.app/bundled/vendors~bundle~lib.js"></script>
+<script src="https://nifty-newton-c83258.netlify.app/bundled/bundle~lib.js"></script>
+<script src="https://nifty-newton-c83258.netlify.app/bundled/lib.js"></script>
 
-<script src="https://chemcollective.oli.cmu.edu/chem/jsvlab/bundled/vendors~bundle~lib.js"></script>
-<script src="https://chemcollective.oli.cmu.edu/chem/jsvlab/bundled/bundle~lib.js"></script>
-<script src="https://chemcollective.oli.cmu.edu/chem/jsvlab/bundled/lib.js"></script>
 
 <script>
         var data = {
@@ -265,8 +265,11 @@ You can create your own virtual lab by forking this repository on Github and fol
         };
 
   const language = 'en';
-  const allowLoadAssignment = true;
+  const allowLoadAssignment = false;
   const showFirstTimeTips = false;
   const appModel = new VLab.AppModel();
-  const appView = new VLab.AppView({ model: appModel, el: document.getElementById("vlab"), vlab: data, domain: "https://chemcollective.oli.cmu.edu/chem/jsvlab/"});
-    </script>
+  const appView = new VLab.AppView({ model: appModel,
+  el: document.getElementById("vlab"),
+  vlab: data,
+  domain: "https://chemcollective.oli.cmu.edu/chem/jsvlab/"});
+  </script>
