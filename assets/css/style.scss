@@ -1,14 +1,14 @@
 ---
 ---
 
-@import "";
+@import "{{ site.theme }}";
 
 /* section {
     max-width: 960px;
   } */
 
-  #vlab img {
-  background-color: initial;
-  max-width: initial;
-  box-sizing: initial;
-  }
+#vlab img {
+background-color: initial;
+max-width: initial;
+box-sizing: initial;
+}
