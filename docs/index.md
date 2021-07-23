@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+## VLab Github Pages Example
+
+See [Vlab Markdown example](https://ryanpdwyer.github.io/vlab-example/vlab-md) for how to load the VLab and write your own lab.
+
+## Github Pages
 
 You can use the [editor on GitHub](https://github.com/ryanpdwyer/vlab-example/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
