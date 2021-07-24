@@ -12,40 +12,40 @@ You can create your own virtual lab by forking this repository on Github and fol
 
 1. Leave an empty element (div, section, etc...) that the vlab will be loaded into:
 
-```html
-<div id="vlab"></div>
-``` 
+  ```html
+  <div id="vlab"></div>
+  ``` 
 
 2. On the html page, load the three scripts shown below:
 
-```js
+  ```html
 
-<script src="https://nifty-newton-c83258.netlify.app/bundled/vendors~bundle~lib.js"></script>
-<script src="https://nifty-newton-c83258.netlify.app/bundled/bundle~lib.js"></script>
-<script src="https://nifty-newton-c83258.netlify.app/bundled/lib.js"></script>
-```
+  <script src="https://nifty-newton-c83258.netlify.app/bundled/ vendors~bundle~lib.js"></script>
+  <script src="https://nifty-newton-c83258.netlify.app/bundled/bundle~lib.js"></script>
+  <script src="https://nifty-newton-c83258.netlify.app/bundled/lib.js"></script>
+  ```
 
 3. Define the virtual lab as a javascript object (see above for details).
 
-```js
-const data = {
-assignment: {...
-}, ...
-}
-```
+  ```js
+  const data = {
+  assignment: {...
+  }, ...
+  }
+  ```
 
 4. Define global variables and load the virtual lab into the empty element with the following lines:
 
-```js
-const language = 'en';
-const allowLoadAssignment = false;
-const showFirstTimeTips = false;
-const appModel = new VLab.AppModel();
-const appView = new VLab.AppView({ model: appModel,
+  ```js
+  const language = 'en';
+  const allowLoadAssignment = false;
+  const showFirstTimeTips = false;
+  const appModel = new VLab.AppModel();
+  const appView = new VLab.AppView({ model: appModel,
                                    el: document.getElementById("vlab"),
                                    vlab: data,
               domain: "https://chemcollective.oli.cmu.edu/chem/jsvlab/"});
-```
+  ```
 
 
 
