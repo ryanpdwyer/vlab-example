@@ -192,6 +192,16 @@ Here's an example lab:
                   {"id": 4, "amount": 0.01},
                   {"id": 7, "amount": 0.01}
                 ]
+               },
+               {
+                 "name": "1.0 M HNO<sub>3</sub>",
+                 "description": "1.0 M Nitric acid",
+                 "volume": 0.1,
+                 "species": [
+                 {"id": 0},
+                 {"id": 1, "amount": 0.1},
+                 {"id": 6, "amount": 0.1}
+                 ]
                }
             ]
          }
