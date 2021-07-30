@@ -12,8 +12,10 @@ You can create your own virtual lab by forking this repository on Github and fol
 </div>
 
 
-<script src="https://nifty-newton-c83258.netlify.app/bundled/vendors~bundle~lib.js"></script>
-<script src="https://nifty-newton-c83258.netlify.app/bundled/bundle~lib.js"></script>
+<link href="https://nifty-newton-c83258.netlify.app/bundled/911.0f1715266a6629527277.css" rel="stylesheet">
+<script src="https://nifty-newton-c83258.netlify.app/bundled/850.js"></script>
+<script src="https://nifty-newton-c83258.netlify.app/bundled/526.js"></script>
+<script src="https://nifty-newton-c83258.netlify.app/bundled/911.js"></script>
 <script src="https://nifty-newton-c83258.netlify.app/bundled/lib.js"></script>
 
 
