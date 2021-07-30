@@ -8,6 +8,49 @@ layout: default
 
 You can create your own virtual lab by forking this repository on Github and following the steps below.
 
+### Technical Overview
+
+1. Leave an empty element (div, section, etc...) that the vlab will be loaded into:
+
+  ```html
+  <div id="vlab"></div>
+  ``` 
+
+2. On the html page, load the three scripts shown below:
+
+  ```html
+
+  <script src="https://nifty-newton-c83258.netlify.app/bundled/ vendors~bundle~lib.js"></script>
+  <script src="https://nifty-newton-c83258.netlify.app/bundled/bundle~lib.js"></script>
+  <script src="https://nifty-newton-c83258.netlify.app/bundled/lib.js"></script>
+  ```
+
+3. Define the virtual lab as a javascript object (see above for details).
+
+  ```js
+  const data = {
+  assignment: {...
+  }, ...
+  }
+  ```
+
+4. Define global variables and load the virtual lab into the empty element with the following lines:
+
+  ```js
+  const language = 'en';
+  const allowLoadAssignment = false;
+  const showFirstTimeTips = false;
+  const appModel = new VLab.AppModel();
+  const appView = new VLab.AppView({ model: appModel,
+                                   el: document.getElementById("vlab"),
+                                   vlab: data,
+              domain: "https://chemcollective.oli.cmu.edu/chem/jsvlab/"});
+  ```
+
+
+
+Here's an example lab:
+
 <div id="vlab">
 </div>
 
@@ -22,7 +65,7 @@ You can create your own virtual lab by forking this repository on Github and fol
 <script>
         var data = {
             assignment: {
-	"assignmentText" : "<em>Potassium Permanganate Titration:<\/em>  Using the Virtual Laboratory, design and perform a titration to determine the concentration of the unknown KMnO<sub>4<\/sub> solution to four significant figures."
+	"assignmentText" : "<em>Ferric thiocyanate Equilibrium:<\/em>  Using the Virtual Laboratory, analyze the ferric thiocyanate equilibrium using Le Chatelier's principle."
 },
             configuration: {
   "title": "Iron Thiocyanate Equilibrium",
@@ -151,6 +194,16 @@ You can create your own virtual lab by forking this repository on Github and fol
                   {"id": 4, "amount": 0.01},
                   {"id": 7, "amount": 0.01}
                 ]
+               },
+               {
+                 "name": "1.0 M HNO<sub>3</sub>",
+                 "description": "1.0 M Nitric acid",
+                 "volume": 0.1,
+                 "species": [
+                 {"id": 0},
+                 {"id": 1, "amount": 0.1},
+                 {"id": 6, "amount": 0.1}
+                 ]
                }
             ]
          }

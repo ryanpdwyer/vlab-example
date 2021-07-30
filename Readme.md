@@ -1,6 +1,6 @@
 # VLab Example
 
-An example of creating and loading your own virtual lab.
+An example of creating and loading your own virtual lab. See [Github Pages](https://ryanpdwyer.github.io/vlab-example) to see the Virtual lab example.
 
 
 ## To do
