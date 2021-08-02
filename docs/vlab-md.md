@@ -19,7 +19,7 @@ You can create your own virtual lab by forking this repository on Github and fol
 2. On the html page, load the scripts shown below:
 
   ```html
-<link href="https://nifty-newton-c83258.netlify.app/bundled/911.0f1715266a6629527277.css" rel="stylesheet">
+<link href="https://nifty-newton-c83258.netlify.app/bundled/911.css" rel="stylesheet">
 <script src="https://nifty-newton-c83258.netlify.app/bundled/850.js"></script>
 <script src="https://nifty-newton-c83258.netlify.app/bundled/526.js"></script>
 <script src="https://nifty-newton-c83258.netlify.app/bundled/911.js"></script>
@@ -56,7 +56,7 @@ Here's an example lab:
 </div>
 
 
-<link href="https://nifty-newton-c83258.netlify.app/bundled/911.0f1715266a6629527277.css" rel="stylesheet">
+<link href="https://nifty-newton-c83258.netlify.app/bundled/911.css" rel="stylesheet">
 <script src="https://nifty-newton-c83258.netlify.app/bundled/850.js"></script>
 <script src="https://nifty-newton-c83258.netlify.app/bundled/526.js"></script>
 <script src="https://nifty-newton-c83258.netlify.app/bundled/911.js"></script>
