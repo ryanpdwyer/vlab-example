@@ -279,7 +279,7 @@ function activateSession (e) {
 	let labframe = document.getElementById("labframe").contentWindow;
     console.log(message,e);
 
-    labframe.postMessage(message, "https://chemcollective.net");
+    labframe.postMessage(message, "https://ryanpdwyer.github.io/");
 	// labframe.postMessage(message, "https://chemcollective.oli.cmu.edu");
     // labframe.postMessage(message, "https://ryanpdwyer.github.io/");
     document.getElementById("labframe").addEventListener("load", activateSession);
