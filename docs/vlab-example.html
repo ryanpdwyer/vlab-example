@@ -280,8 +280,8 @@ function activateSession (e) {
     console.log(message,e);
 
     
-	labframe.postMessage(message, "https://chemcollective.oli.cmu.edu");
-    // labframe.postMessage(message, "https://ryanpdwyer.github.io/");
+	// labframe.postMessage(message, "https://chemcollective.oli.cmu.edu");
+    labframe.postMessage(message, "https://ryanpdwyer.github.io/");
     document.getElementById("labframe").addEventListener("load", activateSession);
 }
 
