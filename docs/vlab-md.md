@@ -272,9 +272,11 @@ The virtual lab object should contain the following 6 keys:
 
 ## Example Lab
 
+To view the full javascript for the example below, see [Github](https://github.com/ryanpdwyer/vlab-example/blob/main/docs/vlab-md.md?plain=1#L289)
 
 <div id="vlab">
 </div>
+
 
 
 <link href="https://nifty-newton-c83258.netlify.app/bundled/911.css" rel="stylesheet">
