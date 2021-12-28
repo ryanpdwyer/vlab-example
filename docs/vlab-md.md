@@ -194,7 +194,7 @@ The virtual lab object should contain the following 6 keys:
                   "name": "Distilled H<sub>2</sub>O", 
                   "description": "Distilled Water", 
                   "volume": "3.0", 
-                  "vessel": "3LCarboy", // Vessel defaults to 100 mL Erlenmeyer flask
+                  "vessel": "3LCarboy", // Vessel defaults to 250 mL Erlenmeyer flask
                   "species": [
                      {
                         "id": 0
