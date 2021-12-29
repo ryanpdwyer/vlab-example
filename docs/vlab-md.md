@@ -274,7 +274,7 @@ The virtual lab object should contain the following 6 keys:
 
 ## Example Lab
 
-To view the full javascript for the example below, see [Github](https://github.com/ryanpdwyer/vlab-example/blob/main/docs/vlab-md.md?plain=1#L289).
+To view the full javascript for the example below, see [Github](https://github.com/ryanpdwyer/vlab-example/blob/main/docs/vlab-md.md?plain=1#L289). Note that on GitHub pages, there are slight formatting/color issues due to clashing CSS rules-the [CodePen example](https://codepen.io/ryanpdwyer/pen/rNGJBbx?editors=0011) has correct color/font CSS behavior.
 
 <div id="vlab">
 </div>
