@@ -279,8 +279,6 @@ To view the full javascript for the example below, see [Github](https://github.c
 <div id="vlab">
 </div>
 
-
-
 <link href="https://nifty-newton-c83258.netlify.app/bundled/911.css" rel="stylesheet">
 <script src="https://nifty-newton-c83258.netlify.app/bundled/850.js"></script>
 <script src="https://nifty-newton-c83258.netlify.app/bundled/526.js"></script>
