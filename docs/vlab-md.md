@@ -4,15 +4,17 @@ layout: default
 
 # Virtual Lab Example
 
+This page lays out how you can write and use your own ChemCollective virtual lab using a simple html and JavaScript webpage that can be hosted on Github pages or any other static webhost. 
 
 <div id="toc"></div>
 
 ## Make a new virtual lab
 
-You can create your own virtual lab by forking this repository on [Github](https://github.com/ryanpdwyer/vlab-example).
+You can create your own virtual lab by forking this repository on [Github](https://github.com/ryanpdwyer/vlab-example) or by using the [CodePen example](https://codepen.io/ryanpdwyer/pen/rNGJBbx?editors=0011), where you can see make live changes to the example lab.
 
 ### The virtual lab object
 
+To create and host your own virtual lab, you create a javascript object with the following format.
 
 The virtual lab object should contain the following 6 keys:
 
@@ -272,7 +274,7 @@ The virtual lab object should contain the following 6 keys:
 
 ## Example Lab
 
-To view the full javascript for the example below, see [Github](https://github.com/ryanpdwyer/vlab-example/blob/main/docs/vlab-md.md?plain=1#L289)
+To view the full javascript for the example below, see [Github](https://github.com/ryanpdwyer/vlab-example/blob/main/docs/vlab-md.md?plain=1#L289).
 
 <div id="vlab">
 </div>
