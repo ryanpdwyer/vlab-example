@@ -10,7 +10,7 @@ This page lays out how you can write and use your own ChemCollective virtual lab
 
 ## Make a new virtual lab
 
-You can create your own virtual lab by forking this repository on [Github](https://github.com/ryanpdwyer/vlab-example) or by using the [CodePen example](https://codepen.io/ryanpdwyer/pen/rNGJBbx?editors=0011), where you can see make live changes to the example lab.
+You can create your own virtual lab by forking this repository on [Github](https://github.com/ryanpdwyer/vlab-example) or by using the [CodePen example](https://codepen.io/ryanpdwyer/pen/rNGJBbx?editors=0011), where you can make live changes to the example lab.
 
 ### The virtual lab object
 
@@ -269,7 +269,7 @@ The virtual lab object should contain the following 6 keys:
     const appView = new VLab.AppView({ model: appModel,
                                       el: document.getElementById("vlab"),
                                       vlab: data,
-                domain: "https://chemcollective.oli.cmu.edu/chem/jsvlab/"});
+                domain: "https://chemcollective.org/chem/jsvlab/"});
     ```
 
 ## Example Lab
@@ -502,7 +502,7 @@ To view the full javascript for the example below, see [Github](https://github.c
   const appView = new VLab.AppView({ model: appModel,
   el: document.getElementById("vlab"),
   vlab: data,
-  domain: "https://chemcollective.oli.cmu.edu/chem/jsvlab/"});
+  domain: "https://chemcollective.org/chem/jsvlab/"});
   </script>
 
 
